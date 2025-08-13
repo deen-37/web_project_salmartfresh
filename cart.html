@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The purpose of the shopping cart is to show the details of product added in the cart. It provides customers with the description of each item, pictures, prices and quantity as well as the total cost. It allows the customer to modify the quantity of their product.">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <nav id="main-nav">
+        <div id="nav-left">
+          <img src="images/logo.png" alt="Sal FreshMart Logo" id="logo">
+        </div>
+        <div id="nav-center">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="cart.html" class="active">Shopping Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+    </nav>  
+    <main>
+        <!-- Product Listing Section -->
+        <section id="product-listing">
+            <h2>Products in Your Cart</h2>
+
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="images/mango.jpg" alt="Product 1" width="200" height="200">
+                <div class="product-details">
+                    <p><strong>Product Name:</strong> Organci Gala Mango</p>
+                    <P><strong>description:</strong>Snappy, sweet and directly from the farm, Gala organic mango is great for fresh eat, or making juices.</P>
+                    <label for="quantity1">Quantity:</label>
+                    <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+                    <p><strong>Price:</strong> $4</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="images/milk.jpg" alt="Product 2" width="200" height="200">
+                <div class="product-details">
+                    <p><strong>Product Name:</strong> Organic Milk</p>
+                    <P><strong>description:</strong> </P>
+                    <label for="quantity2">Quantity:</label>
+                    <input type="number" id="quantity2" name="quantity2" value="1" min="1">
+                    <p><strong>Price:</strong> $8</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="images/eggs.jpg" alt="Product 3" width="200" height="200">
+                <div class="product-details">
+                    <p><strong>Product Name:</strong> Free Range Brown Eggs</p>
+                    <P><strong>description:</strong>These brown eggs are packed with nutrients and are idea for cooking and baking. From free range hens and ethically sourced.</P>
+                    <label for="quantity3">Quantity:</label>
+                    <input type="number" id="quantity3" name="quantity3" value="1" min="1">
+                    <p><strong>Price:</strong> $6</p>
+                </div>
+            </div>
+            
+            <div class="product-item">
+                <img src="images/kale.jpg" alt="Product 4" width="200" height="200">
+                <div class="product-details">
+                    <p><strong>Product Name:</strong> Freshly Harvest Kale</p>
+                    <P><strong>description:</strong> Farm fresh kale is full of vitamins. Well suited with salads, smoothies or sauced dishes. </P>
+                    <label for="quantity4">Quantity:</label>
+                    <input type="number" id="quantity4" name="quantity" value="1" min="1">
+                    <p><strong>Price:</strong> $6</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="images/honey.jpg" alt="Product 5" width="200" height="200">
+                <div class="product-details">
+                    <p><strong>Product Name:</strong> Organic Honey</p>
+                    <P><strong>description:</strong>powerful for sweetening tea, baking and boosting immunity, raw organic honey from sustainable beekeeping. </P>
+                    <label for="quantity5">Quantity:</label>
+                    <input type="number" id="quantity5" name="quantity5" value="1" min="1">
+                    <p><strong>Price:</strong> $6</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="order-summary">
+            <h2>Order Summary</h2>
+            <p>Before you proceed to checkout, please review your total order:</p>
+
+            <div>
+                <p><strong>Subtotal:</strong> $569</p>
+                <p><strong>Sales Tax:</strong> 6%</p>
+                <p><strong>Total:</strong> $710</p>
+            </div>
+            <aside>
+                <button type="button">Proceed to Checkout</button>
+                <button type="button">Continue Shopping</button>
+            </aside>
+        </section>
+    </main>
+    <footer id="main-footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Important Links</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Services/Products</li>
+                    <li>Blog/News</li>
+                    <li>FAQs</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email Address</li>
+                    <li>Phone Number</li>
+                    <li>Physical Address</li>
+                    <li>Live Chat Link</li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Social Media Links</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter (X)</li>
+                    <li>LinkedIn</li>
+                    <li>YouTube</li>
+                    <li>TikTok</li>
+                </ul>
+            </div>
+        </div>
+    
+        <p>&copy; 2025 Sal FreshMart Grocery. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+
+</html>

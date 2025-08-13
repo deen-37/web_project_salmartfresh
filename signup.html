@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content= "The purpose of this page is to allow users to create a profile and allows users to have customized experience. For user, it has inputs for email and password and for new users it has “Forgot Password? Feature.">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <nav id="main-nav">
+        <div id="nav-left">
+          <img src="images/logo.png" alt="Sal FreshMart Logo" id="logo">
+        </div>
+        <div id="nav-center">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html" class="active">Sign Up</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+    </nav>  
+    <h1 id="welcome">Welcome, Sign Up for SalMart Grocery</h1>
+    <!--<h2> id= Sign Up</h2> -->
+    <!-- Sign Up Form -->
+    <form  id="signup-form" action="#" method="post">
+
+        <!-- Name Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required><br><br>
+
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required><br><br>
+        </fieldset>
+        <br>
+        <!--Address Information-->
+        <fieldset>
+            <legend>Address Information</legend>
+
+            <label for="street-address">Street Address:</label><br>
+            <input type="text" id="street-address" name="street-address"  required><br><br>
+
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" placeholder="Enter your city"><br><br>
+
+            <label for="state">State:</label><br>
+            <input type="text" id="state" name="state" placeholder="Enter your state"><br><br>
+
+            <label for="zip-code">Zip Code:</label><br>
+            <input type="text" id="zip-code" name="zip-code" placeholder="Enter your zip code"><br><br>
+        </fieldset>
+
+        <!-- Contact Information -->
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Phone Number (Optional):</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Account Information -->
+        <fieldset>
+            <legend>Account Information</legend>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password" name="confirm-password"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Gender Selection -->
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+        </fieldset>
+        <br>
+
+        <!-- Terms and Conditions -->
+        <fieldset>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">By clicking Sign Up, I agree to the Sal FreshMart's terms and conditions</label><br><br>
+        </fieldset>
+
+        <!-- Sign Up Button -->
+        <button type="submit">Sign Up</button>
+    </form>
+    <p> You already have an account, Sign in <a href="www.signin.com">here</a></p>
+    <footer id="main-footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Important Links</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Services/Products</li>
+                    <li>Blog/News</li>
+                    <li>FAQs</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email Address</li>
+                    <li>Phone Number</li>
+                    <li>Physical Address</li>
+                    <li>Live Chat Link</li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Social Media Links</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter (X)</li>
+                    <li>LinkedIn</li>
+                    <li>YouTube</li>
+                    <li>TikTok</li>
+                </ul>
+            </div>
+        </div>
+    
+        <p>&copy; 2025 Sal FreshMart Grocery. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
